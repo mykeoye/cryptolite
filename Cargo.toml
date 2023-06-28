@@ -7,3 +7,4 @@ edition = "2021"
 
 [dependencies]
 rust-crypto = "0.2.36"
+rand = "0.8.5"
