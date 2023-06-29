@@ -1,4 +1,4 @@
-use crypto_rs::{aes_128_cbc_decrypt, aes_128_ctr_decrypt, decode_hex};
+use cryptolite::{aes_128_cbc_decrypt, aes_128_ctr_decrypt, decode_hex};
 
 enum Mode {
     CBC,
